@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experts Car AC - Mobile AC Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #0077b6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #0077b6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Experts Car AC</h1>
+    <p>Professional Car AC Service at Your Doorstep</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>We provide expert car AC repair and maintenance services at your home. Save time and get cool comfort without leaving your place!</p>
+</section>
+
+<section>
+    <h2>Book a Service</h2>
+    <form action="https://formspree.io/f/movdgqjz"
+        <label>Your Name</label>
+        <input type="text" name="name" required>
+
+        <label>Phone Number</label>
+        <input type="tel" name="phone" required>
+
+        <label>Service Date</label>
+        <input type="date" name="date" required>
+
+        <label>Address / Location</label>
+        <textarea name="location" rows="3" required></textarea>
+
+        <button type="submit">Book Now</button>
+    </form>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p>Phone: +91-XXXXXXXXXX<br>Email: expertscarac@email.com</p>
+</section>
+
+<footer>
+    &copy; 2025 Experts Car AC. All rights reserved.
+</footer>
+
+</body>
+</html>
